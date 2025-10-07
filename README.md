@@ -10,4 +10,6 @@ SoftUni BackEnd Workshop
 [x] Setup Handlebars
 [x] Setup Static Files
 [x] Render HomePage
-[] Config Debugging
+[x] Config Debugging
+[] Add Layout
+[] Render About Page
