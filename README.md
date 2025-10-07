@@ -7,5 +7,5 @@ SoftUni BackEnd Workshop
 [x] Initialize Project
 [x] Add Express Server
 [x] Add Resources
-[] Setup Handlebars
+[x] Setup Handlebars
 [] Render HomePage
