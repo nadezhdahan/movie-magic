@@ -9,5 +9,5 @@ SoftUni BackEnd Workshop
 [x] Add Resources
 [x] Setup Handlebars
 [x] Setup Static Files
-[] Render HomePage
+[x] Render HomePage
 [] Config Debugging
