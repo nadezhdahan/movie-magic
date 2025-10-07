@@ -8,4 +8,6 @@ SoftUni BackEnd Workshop
 [x] Add Express Server
 [x] Add Resources
 [x] Setup Handlebars
+[x] Setup Static Files
 [] Render HomePage
+[] Config Debugging
