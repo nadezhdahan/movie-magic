@@ -11,5 +11,5 @@ SoftUni BackEnd Workshop
 [x] Setup Static Files
 [x] Render HomePage
 [x] Config Debugging
-[] Add Layout
+[x] Add Layout
 [] Render About Page
