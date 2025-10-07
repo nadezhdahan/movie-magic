@@ -12,4 +12,4 @@ SoftUni BackEnd Workshop
 [x] Render HomePage
 [x] Config Debugging
 [x] Add Layout
-[] Render About Page
+[x] Render About Page
