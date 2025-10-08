@@ -17,8 +17,10 @@ SoftUni BackEnd Workshop
 
 # Architecture
 [x] Add Home Controller
-[] Add Routes
-[] Add Movie Data
+[x] Add Movie Data
 [] Add Movie Service
 [] Render Movies on Home Page
 [] Show No Movies Screen
+
+---
+[] Add Routes
