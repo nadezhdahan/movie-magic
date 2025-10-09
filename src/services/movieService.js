@@ -9,5 +9,9 @@ export default {
     },
     create(movieData) {
    console.log(movieData)
+
+   const movie= new Movie(movieData);
+
+    return movie.save()
 }
 }

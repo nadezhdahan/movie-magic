@@ -22,7 +22,18 @@ const movies= [
 ]
 
 export default class Movie{
+
+    constructor(data){
+        Object.assign(this,data)
+    }
     static find(){
 return [...movies]
+    }
+    save(){
+        movies.push(this)
+
+        console.log(movies)
+
+        return this
     }
 }

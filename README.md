@@ -27,10 +27,10 @@ SoftUni BackEnd Workshop
 [x] Show Create Page
 [x] Add Routes
 [x] Ready Body
-[] Create movie
+[x] Create movie
  [x] Add Action
  [x] Add Service
- [] Add model
+ [x] Add model
 
 
 [] Add 404 page
