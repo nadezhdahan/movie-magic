@@ -25,7 +25,7 @@ SoftUni BackEnd Workshop
 ## Create Movie
 [x] Create Movie Controler
 [x] Show Create Page
-[] Add Routes
+[x] Add Routes
 [] Ready Body
 [] Create movie
  [] Add Action
