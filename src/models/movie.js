@@ -8,6 +8,16 @@ const movies= [
     imageUrl: "/img/jungle-cuise.jpeg",
     rating: 6.20,
     description: "A interesting story about the jungle life"
+},
+{
+    id:"a3682672-0ee4-1284-8759-35ee253329zv",
+    title: "Aurora",
+    category: "movie",
+    genre: "Cartoon",
+    year: "2020",
+    imageUrl: "/img/jungle-cuise.jpeg",
+    rating: 8.20,
+    description: "A long time ago there was a princess named Aurora..."
 }
 ]
 
