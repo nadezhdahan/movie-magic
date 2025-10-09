@@ -28,8 +28,8 @@ SoftUni BackEnd Workshop
 [x] Add Routes
 [x] Ready Body
 [] Create movie
- [] Add Action
- [] Add Service
+ [x] Add Action
+ [x] Add Service
  [] Add model
 
 
