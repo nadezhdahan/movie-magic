@@ -19,8 +19,9 @@ SoftUni BackEnd Workshop
 [x] Add Home Controller
 [x] Add Movie Data
 [x] Add Movie Service
-[] Render Movies on Home Page
-[] Show No Movies Screen
+[x] Render Movies on Home Page
+[x] Show No Movies Screen
 
----
+## Create Movie
 [] Add Routes
+[] Add 404 page
