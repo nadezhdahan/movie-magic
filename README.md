@@ -23,5 +23,14 @@ SoftUni BackEnd Workshop
 [x] Show No Movies Screen
 
 ## Create Movie
+[x] Create Movie Controler
+[] Show Create Page
 [] Add Routes
+[] Ready Body
+[] Create movie
+ [] Add Action
+ [] Add Service
+ [] Add model
+
+
 [] Add 404 page
