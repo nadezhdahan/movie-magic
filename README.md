@@ -31,6 +31,7 @@ SoftUni BackEnd Workshop
  [x] Add Action
  [x] Add Service
  [x] Add model
-
+[x] Redirect to home page
+[] Add id for each created movie
 
 [] Add 404 page
