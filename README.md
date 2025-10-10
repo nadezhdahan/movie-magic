@@ -46,5 +46,6 @@ SoftUni BackEnd Workshop
 [x] Filter all movies
 [x] Remember search words
 ## Bonus 
+[x] Dynamic page title
 [] File Persistance
 [x] Add 404 page
