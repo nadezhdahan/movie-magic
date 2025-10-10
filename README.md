@@ -43,7 +43,7 @@ SoftUni BackEnd Workshop
 ## Search Page
 [x] Show static search page
 [x] Render allmovies
-[] Filter all movies
+[x] Filter all movies
 [] Remember search words
 ## Bonus 
 [] File Persistance
