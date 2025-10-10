@@ -44,7 +44,7 @@ SoftUni BackEnd Workshop
 [x] Show static search page
 [x] Render allmovies
 [x] Filter all movies
-[] Remember search words
+[x] Remember search words
 ## Bonus 
 [] File Persistance
 [x] Add 404 page

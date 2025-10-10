@@ -33,16 +33,25 @@ export default class Movie {
     static find(filter = {}) {
         let result = movies.slice()
 
-        // to do filter
+        if (filter._id) {
+            result = result.find(movie => movie._id === filter._id)
+        }
+        if(filter.title){
+result= result.filter(movie => movie.title.toLocaleLowerCase() === filter.title.toLocaleLowerCase())
+        }
+        if(filter.genre){
+result= result.filter(movie => movie.genre.toLocaleLowerCase() === filter.genre.toLocaleLowerCase())
+        }
+        if(filter.year){
+            result= result.filter(movie => movie.year === filter.year)
+        }
         return result
 
     }
 
     static findOne(filter ={}) {
         let result= movies
-        if (filter._id) {
-            result = result.find(movie => movie._id === filter._id)
-        }
+        
 
         return result
     }
