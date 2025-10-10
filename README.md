@@ -34,4 +34,8 @@ SoftUni BackEnd Workshop
 [x] Redirect to home page
 [x] Add id for each created movie
 
-[] Add 404 page
+## Details Page
+## Search Page
+## Bonus 
+[] File Persistance
+[x] Add 404 page

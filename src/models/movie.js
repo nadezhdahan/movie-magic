@@ -7,7 +7,7 @@ const movies= [
     category: "movie",
     genre: "Adventure",
     year: "2021",
-    imageUrl: "/img/jungle-cuise.jpeg",
+    imageUrl: "/img/jungle-cruise.jpeg",
     rating: 6.20,
     description: "A interesting story about the jungle life"
 },
@@ -17,7 +17,7 @@ const movies= [
     category: "movie",
     genre: "Cartoon",
     year: "2020",
-    imageUrl: "/img/jungle-cuise.jpeg",
+    imageUrl: "/img/the-little-mermaid.jpg",
     rating: 8.20,
     description: "A long time ago there was a princess named Aurora..."
 }
@@ -33,7 +33,7 @@ export default class Movie{
     static find(){
 return [...movies]
     }
-    
+
     get id(){
         return this._id
     }
