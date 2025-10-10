@@ -37,7 +37,7 @@ SoftUni BackEnd Workshop
 ## Details Page
 [x] Add navigation button for details page
 [x] Add route with param for details page
-[] Get one movie from service
+[x] Get one movie from service
 [] Find movie id from model
 ## Search Page
 ## Bonus 
