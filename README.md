@@ -42,7 +42,7 @@ SoftUni BackEnd Workshop
 [x] Render details page with dynamic data
 ## Search Page
 [x] Show static search page
-[] Render allmovies
+[x] Render allmovies
 [] Filter all movies
 [] Remember search words
 ## Bonus 
