@@ -12,7 +12,7 @@ const movies= [
     description: "A interesting story about the jungle life"
 },
 {
-    _id:"a3682672-0ee4-1284-8759-35ee253329zv",
+    _id:"a3682672-0ee4-1284-8759-35ee253320zv",
     title: "Aurora",
     category: "movie",
     genre: "Cartoon",
