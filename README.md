@@ -38,7 +38,7 @@ SoftUni BackEnd Workshop
 [x] Add navigation button for details page
 [x] Add route with param for details page
 [x] Get one movie from service
-[] Find movie id from model
+[x] Find movie id from model
 ## Search Page
 ## Bonus 
 [] File Persistance
