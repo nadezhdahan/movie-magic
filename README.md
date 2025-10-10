@@ -41,6 +41,10 @@ SoftUni BackEnd Workshop
 [x] Find movie id from model
 [x] Render details page with dynamic data
 ## Search Page
+[x] Show static search page
+[] Render allmovies
+[] Filter all movies
+[] Remember search words
 ## Bonus 
 [] File Persistance
 [x] Add 404 page
