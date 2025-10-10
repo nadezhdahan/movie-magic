@@ -39,6 +39,7 @@ SoftUni BackEnd Workshop
 [x] Add route with param for details page
 [x] Get one movie from service
 [x] Find movie id from model
+[x] Render details page with dynamic data
 ## Search Page
 ## Bonus 
 [] File Persistance
