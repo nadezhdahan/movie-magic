@@ -35,6 +35,10 @@ SoftUni BackEnd Workshop
 [x] Add id for each created movie
 
 ## Details Page
+[x] Add navigation button for details page
+[] Add route with param for details page
+[] Get one movie from service
+[] Find movie id from model
 ## Search Page
 ## Bonus 
 [] File Persistance

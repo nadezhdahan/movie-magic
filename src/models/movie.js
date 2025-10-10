@@ -2,7 +2,7 @@ import { v4 as uuid } from "uuid";
 
 const movies= [
  {
-    id:"a3682672-0ee4-1284-8759-35ee253329zv",
+    _id:"a3682672-0ee4-1284-8759-35ee253329zv",
     title: "Jungle-Cuise",
     category: "movie",
     genre: "Adventure",
@@ -12,7 +12,7 @@ const movies= [
     description: "A interesting story about the jungle life"
 },
 {
-    id:"a3682672-0ee4-1284-8759-35ee253329zv",
+    _id:"a3682672-0ee4-1284-8759-35ee253329zv",
     title: "Aurora",
     category: "movie",
     genre: "Cartoon",
