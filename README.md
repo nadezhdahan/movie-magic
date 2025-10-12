@@ -59,5 +59,8 @@ SoftUni BackEnd Workshop
 
 ## Refactor movies to use Mongoose
 [x] Add movie model
+[x]Create Movie schema
+[x] Create movie model
+[x] Import movies to db
 
 [] Add new resources
