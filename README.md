@@ -58,6 +58,6 @@ SoftUni BackEnd Workshop
 [x] Connect to DB
 
 ## Refactor movies to use Mongoose
-[] Add movie model
+[x] Add movie model
 
 [] Add new resources
