@@ -69,7 +69,7 @@ SoftUni BackEnd Workshop
 ## Add Cast
 [x] Add new resources
 [x] Create cast controller
-[] Create cast page
+[x] Create cast page
 []Add cast model
 [] Create cast service
 [] Create cast functionallity
