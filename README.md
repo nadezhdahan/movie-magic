@@ -62,5 +62,6 @@ SoftUni BackEnd Workshop
 [x]Create Movie schema
 [x] Create movie model
 [x] Import movies to db
+[x] Fix own property handlebars problem with lean
 
 [] Add new resources
