@@ -77,6 +77,7 @@ SoftUni BackEnd Workshop
 ## Attach cast to movie
 [x] Add atachh cast button
 [] Add attach cast page
+[] Add dynamic data to cas page
 [] Add relation between cast and movie
 [] Attach cast functionallity
 
