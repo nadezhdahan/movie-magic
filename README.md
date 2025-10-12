@@ -70,7 +70,7 @@ SoftUni BackEnd Workshop
 [x] Add new resources
 [x] Create cast controller
 [x] Create cast page
-[]Add cast model
+[x]Add cast model
 [] Create cast service
 [] Create cast functionallity
 
