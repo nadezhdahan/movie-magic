@@ -2,9 +2,9 @@
 SoftUni BackEnd Workshop
 
 
-## Dev Steps
+## Dev Steps Workshop-1
 
-# Setup
+## Setup
 [x] Initialize Project
 [x] Add Express Server
 [x] Add Resources
@@ -15,7 +15,7 @@ SoftUni BackEnd Workshop
 [x] Add Layout
 [x] Render About Page
 
-# Architecture
+## Architecture
 [x] Add Home Controller
 [x] Add Movie Data
 [x] Add Movie Service
@@ -49,3 +49,15 @@ SoftUni BackEnd Workshop
 [x] Dynamic page title
 [] File Persistance
 [x] Add 404 page
+
+
+## Workshop-2 MongoDB Database
+
+## Setup Database
+[x] Install Mongoose
+[] Connect to DB
+
+## Refactor movies to use Mongoose
+[] Add movie model
+
+[] Add new resources
