@@ -66,4 +66,9 @@ SoftUni BackEnd Workshop
 [x] General fix for own property
 [x] Refactor search
 
-[] Add new resources
+## Add Cast
+[x] Add new resources
+[]Add cast model
+[] Create cast service
+[] Create cast controller
+
