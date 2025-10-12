@@ -64,5 +64,6 @@ SoftUni BackEnd Workshop
 [x] Import movies to db
 [x] Fix own property handlebars problem with lean
 [x] General fix for own property
+[x] Refactor search
 
 [] Add new resources
