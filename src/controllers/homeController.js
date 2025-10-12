@@ -1,16 +1,17 @@
 import { Router } from "express";
+
 import movieService from "../services/movieService.js";
 
-const homeController= Router()
+const homeController = Router();
 
-homeController.get('/', (req,res)=>{
-    const movies= movieService.getAll()
-    console.log(movies)
-    res.render('home', {movies})
-})
+homeController.get('/', async (req, res) => {
+    const movies = await movieService.getAll();
 
-homeController.get('/about',(req,res)=>{
-    res.render("about")
-})
+    res.render('home', { movies });
+});
+
+homeController.get('/about', (req, res) => {
+    res.render('about');
+});
 
 export default homeController;

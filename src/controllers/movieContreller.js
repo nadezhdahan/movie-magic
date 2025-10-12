@@ -1,37 +1,36 @@
 import { Router } from "express";
 import movieService from "../services/movieService.js";
 
-const movieController= Router();
+const movieController = Router();
 
-movieController.get('/create', (req,res) =>{
-    res.render('create')
-})
-movieController.post('/create',(req,res)=>{
-    const movieData=req.body
-    const movie= movieService.create(movieData)
-    
-    
-
-    res.redirect('/')
-})
-
-movieController.get('/:movieId/details', (req, res) => {
-    const movieId = req.params.movieId
-    const movie= movieService.getOne(movieId)
-
-    
-
-    res.render('details', {movie});
+movieController.get('/create', (req, res) => {
+    res.render('create');
 });
 
-movieController.get('/search',(req,res)=>{
-    const filter= req.query
-    const movies= movieService.getAll(filter)
+movieController.post('/create', async (req, res) => {
+    const movieData = req.body;
 
-    console.log()
+    await movieService.create(movieData);
 
-    res.render('search',{movies,filter, pageTitle: 'Search Movies'})
-})
+    res.redirect('/');
+});
 
+movieController.get('/:movieId/details', async (req, res) => {
+    const movieId = req.params.movieId;
+    const movie = await movieService.getOne(movieId);
+
+    // TODO Prepare view data (temp solution)
+    const ratingViewData = '&#x2605;'.repeat(Math.trunc(movie.rating));
+
+    res.render('details', { movie, rating: ratingViewData });
+});
+
+movieController.get('/search', async (req, res) => {
+    const filter = req.query;
+
+    const movies = await movieService.getAll(filter);
+
+    res.render('search', { movies, filter, pageTitle: 'Search Movies' });
+});
 
 export default movieController;

@@ -1,20 +1,17 @@
-import { create } from "express-handlebars";
-import Movie from "../models/movie.js";
-
-
+import Movie from "../models/Movie.js";
 
 export default {
-    getAll(filter){
-        return Movie.find(filter)
+    getAll(filter) {
+        return Movie.find(filter);
     },
-    getOne(movieId){
-return Movie.findOne({_id: movieId})
+    getOne(movieId) {
+        return Movie.findOne({_id: movieId});
     },
     create(movieData) {
-   console.log(movieData)
+        movieData.rating = Number(movieData.rating);
 
-   const movie= new Movie(movieData);
+        const movie = new Movie(movieData);
 
-    return movie.save()
-}
+        return movie.save();
+    }
 }
