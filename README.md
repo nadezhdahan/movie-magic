@@ -74,3 +74,9 @@ SoftUni BackEnd Workshop
 [x] Create cast service
 [x] Create cast functionallity
 
+## Attach cast to movie
+[x] Add atachh cast button
+[] Add attach cast page
+[] Add relation between cast and movie
+[] Attach cast functionallity
+
