@@ -55,7 +55,7 @@ SoftUni BackEnd Workshop
 
 ## Setup Database
 [x] Install Mongoose
-[] Connect to DB
+[x] Connect to DB
 
 ## Refactor movies to use Mongoose
 [] Add movie model
