@@ -72,5 +72,5 @@ SoftUni BackEnd Workshop
 [x] Create cast page
 [x]Add cast model
 [x] Create cast service
-[] Create cast functionallity
+[x] Create cast functionallity
 
