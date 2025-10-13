@@ -32,5 +32,13 @@ export default {
         const movie = new Movie(movieData);
 
         return movie.save();
+    },
+
+    async attach(movieId,castId){
+        const movie= await Movie.findById(movieId);
+
+        movie.casts.push(castId)
+
+        return movie.save()
     }
 }
