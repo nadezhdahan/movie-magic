@@ -78,6 +78,7 @@ SoftUni BackEnd Workshop
 [x] Add atachh cast button
 [x] Add attach cast page
 [x] Add dynamic data to cast page
+[x] Show cast list in attached select
 [] Add relation between cast and movie
 [] Attach cast functionallity
 
