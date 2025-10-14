@@ -1,19 +1,26 @@
-import { Schema,model } from "mongoose";
+import { Schema, Types, model } from "mongoose";
 
-const castSchema= new Schema({
+const castSchema = new Schema({
     name: {
         type: String,
-        required:[true,'Cast name reqired.']
+        required: [true, 'Cast name is required!'],
     },
     age: {
-        type:Number,
-        required:[true, 'Age required.']
+        type: Number,
+        required: [true, 'Cast age is requried!'],
+        max: 120,
+        min: 0,
     },
-    born: String,
-    imageUrl: String,
-
+    born: {
+        type: String,
+        required: true,
+    },
+    imageUrl: {
+        type: String,
+        required: true,
+    }
 });
 
-const Cast= model('Cast',castSchema)
-    
-export default Cast
+const Cast = model('Cast', castSchema);
+
+export default Cast;

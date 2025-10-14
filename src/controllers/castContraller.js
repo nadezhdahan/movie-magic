@@ -1,18 +1,18 @@
 import { Router } from "express";
 import castService from "../services/castService.js";
 
-const castController= Router();
+const castController = Router();
 
-castController.get('/create',(req,res) =>{
-    res.render('casts/create')
+castController.get('/create', (req, res) => {
+    res.render('casts/create');
 });
 
-castController.post('/create', async (req,res) =>{
-    const castData=req.body;
+castController.post('/create', async (req, res) => {
+    const castData = req.body;
 
-    const result= await castService.create(castData)
+    await castService.create(castData);
 
-    res.redirect('/')
-})
+    res.redirect('/');
+});
 
-export default castController
+export default castController;

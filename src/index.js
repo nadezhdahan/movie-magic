@@ -6,24 +6,25 @@ import routes from './routes.js';
 
 const app = express();
 
-// Set up DB
+// Setup Database
+const url = 'mongodb://localhost:27017';
 
-const url= 'mongodb://localhost:27017';
+try {
+    await mongoose.connect(url, {
+        dbName: 'movie-magic-sept2025',
+    });
 
-try{
-    await mongoose.connect(url,{dbName:'movie-magic-oct2025'})
-console.log('Connected to DB')
-
-}catch(err){
-    console.error('error')
+    console.log('Successfully connected to DB!');
+} catch (err) {
+    console.error('Cannot connect to DB, ', err.message);
 }
 
 // Setup Handlebars
 app.engine('hbs', handlebars.engine({
     extname: 'hbs',
-    runtimeOptions:{
+    runtimeOptions: {
         allowProtoMethodsByDefault: true,
-        allowProtoPropertiesByDefault:true
+        allowProtoPropertiesByDefault: true,
     }
 }));
 
@@ -34,7 +35,7 @@ app.set('views', 'src/views');
 app.use(express.static('src/public'));
 
 // Parse form data from req
-app.use(express.urlencoded()); 
+app.use(express.urlencoded());
 
 // Routes
 app.use(routes);

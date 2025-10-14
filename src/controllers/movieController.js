@@ -18,7 +18,8 @@ movieController.post('/create', async (req, res) => {
 
 movieController.get('/:movieId/details', async (req, res) => {
     const movieId = req.params.movieId;
-    const movie = await movieService.getOne(movieId);
+    const movie = await movieService.getOneDetailed(movieId)
+    // const movieCasts = await castService.getAll({ includes: movie.casts });
 
     // TODO Prepare view data (temp solution)
     const ratingViewData = '&#x2605;'.repeat(Math.trunc(movie.rating));
@@ -34,20 +35,22 @@ movieController.get('/search', async (req, res) => {
     res.render('search', { movies, filter, pageTitle: 'Search Movies' });
 });
 
-movieController.get('/:movieId/attach', async(req,res) =>{
-    const movieId= req.params.movieId;
-    const movie= await movieService.getOne(movieId);
-    const casts= await castService.getAll()
-console.log(casts)
-    res.render('casts/attach', {movie,casts})
-})
+movieController.get('/:movieId/attach', async (req, res) => {
+    const movieId = req.params.movieId;
 
-movieController.post('/:movieId/attach', async (req,res) =>{
-    const movieId= req.params.movieId;
-    const castId= req.body.cast
+    const movie = await movieService.getOne(movieId);
+    const casts = await castService.getAll({ excludes: movie.casts });
 
-    await movieService.attach(movieId,castId)
+    res.render('casts/attach', { movie, casts });
+});
 
-    res.redirect(`/movies/${movieId}/details`)
-})
+movieController.post('/:movieId/attach', async (req, res) => {
+    const movieId = req.params.movieId;
+    const castId = req.body.cast;
+
+    await movieService.attach(movieId, castId);
+
+    res.redirect(`/movies/${movieId}/details`);
+});
+
 export default movieController;
