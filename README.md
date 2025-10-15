@@ -109,10 +109,9 @@ SoftUni JS Back-End Course Workshop
  ## Registration
  [x] Add new controller 
  [x] Add action for registration page
- [] Handle registration
  [x] Add user model
  [x] Add user service
- [] Handle registration
+ [x] Handle registration
  [] Add password hashing
 
  ##Login
