@@ -12,10 +12,11 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "bcrypt": "^6.0.0",
+    "crypt": "^0.0.2",
     "express": "^5.1.0",
     "express-handlebars": "^8.0.1",
     "mongoose": "^8.19.1",
     "uuid": "^13.0.0"
-  },
-  "devDependencies": {}
+  }
 }

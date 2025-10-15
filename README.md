@@ -112,6 +112,6 @@ SoftUni JS Back-End Course Workshop
  [x] Add user model
  [x] Add user service
  [x] Handle registration
- [] Add password hashing
+ [x] Add password hashing
 
  ##Login
