@@ -111,7 +111,7 @@ SoftUni JS Back-End Course Workshop
  [x] Add action for registration page
  [] Handle registration
  [x] Add user model
- [] Add user service
+ [x] Add user service
  [] Handle registration
  [] Add password hashing
 
