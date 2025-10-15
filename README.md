@@ -104,6 +104,6 @@ SoftUni JS Back-End Course Workshop
  ## Work shop 3- Session and Authentication
 
  ## Initial Setup
- [] Add resources
+ [x] Add resources
 
  ## Registration
