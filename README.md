@@ -120,3 +120,4 @@ SoftUni JS Back-End Course Workshop
   [x] Validate user
   [x] Validate password
   [x] Create token
+  [x] Return cookie to client
