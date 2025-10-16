@@ -29,5 +29,12 @@ authController.post('/login',async (req,res) =>{
     res.redirect('/')
 })
 
+authController.get('/', (req,res) =>{
+
+    res.clearCookie('auth')
+
+    res.redirect('/')
+})
+
 
 export default authController
